@@ -1,0 +1,100 @@
+
+.figures {
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+  }
+
+.first-circle {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    width: 10%;
+    height: 10%;
+    border: 2px  solid red;
+    border-radius: 50%;
+    background-color: red;
+  }
+
+.first-circle:hover {
+    background-color: rebeccapurple;
+    border-color: rebeccapurple;
+    z-index: 1;
+}
+
+.second-circle {
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    width: 10%;
+    height: 10%;
+    border: 2px  solid red;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.second-circle:hover {
+    background-color: lawngreen;
+    border-color:  lawngreen;
+    z-index: 1;
+}
+
+.third-circle {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    width: 10%;
+    height: 10%;
+    border: 2px  solid red;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.third-circle:hover {
+    background-color: mediumaquamarine;
+    border-color:  mediumaquamarine;
+    z-index: 1;
+}
+
+.fourth-circle {
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    width: 10%;
+    height: 10%;
+    border: 2px  solid red;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.fourth-circle:hover  {
+    background-color:darkred;
+    border-color:  darkred;
+    z-index: 1;
+}
+
+.large-square {
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    width: 30%;
+    height: 30%;
+    background-color:blue;
+}
+
+.large-square:hover {
+    background-color: wheat;
+    border-color:  wheat;
+    z-index: 1;
+}
+
+.small-square {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    width: 20%;
+    height: 20%;
+    border: 2px  solid yellow;
+    background-color: yellow;
+    border-radius: 10%;
+}
